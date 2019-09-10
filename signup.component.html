@@ -1,0 +1,19 @@
+<p>signup works!</p>
+  <form [formGroup]="signup"> 
+     <div>
+       name:<input type="text" formControlName="name" placeholder="enter name" ><br><br> 
+       password:<input type="password" formControlName="password"><br>
+       <br>
+       confirmpssword:<input type="password"  formControlName="confirmpassword"><br><br>
+       <button (click)="sig(signup)">click</button>
+       already have  an account <a routerLink="login">login here</a>
+
+     </div>
+
+  </form> 
+
+
+  
+
+    
+ 

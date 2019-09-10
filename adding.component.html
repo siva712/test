@@ -1,0 +1,17 @@
+<p>save works!</p>
+   <form [formGroup]="saveGroup"> 
+     
+       moviename:&nbsp;&nbsp;
+       <input type="text" formControlName="name" placeholder="enter name" ><br><br> 
+       language:&nbsp;
+       <input type="language" formControlName="language"><br>
+       <br>
+       genre:&nbsp;&nbsp;
+       <input type="genre"  formControlName="genre"><br><br>
+       <button (click)="sav(SaveGroup)">Save</button>
+       <button (click)="cancal(SavaGroup)">cancal</button>
+       <a routerLink="movielink">click here </a>
+
+    
+
+  </form> 

@@ -1,0 +1,14 @@
+input{
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    border: 10px;
+    background-color: rgb(28, 136, 230);
+}
+button{
+    background-color: red ;
+    color: soild black;
+    width: 30%;
+    height: 30%;
+}
+  

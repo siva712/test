@@ -1,0 +1,23 @@
+.table {
+    background-color: rgb(144, 241, 132);
+    padding: 80px;
+
+}
+.div{
+    background-color:gold;
+    padding: 20px;
+    border-radius: 20px;
+}
+input{
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    border: 10px;
+    background-color: lightcyan;
+}
+button{
+    background-color: red ;
+    color: soild black;
+    width: 10%;
+}
+  

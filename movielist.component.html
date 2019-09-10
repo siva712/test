@@ -1,0 +1,23 @@
+<p>movielist works!</p>
+<table class="table">
+    <div class="div">
+        <input type="text" [(ngModel)]="arry">
+        <button (click)="add(arry)">add</button>
+        
+        <tr>
+            <th>moviename</th>
+            <th>language</th>
+            <th>genre</th>
+        </tr>
+
+    </div>
+    <div *ngFor="let a of arry2">
+        <td>
+            {{a.MovieName}}</td>
+          <td>  {{a.Language}}</td>
+            <td>{{a.Genre}}
+
+
+        </td>
+    </div>
+</table>
